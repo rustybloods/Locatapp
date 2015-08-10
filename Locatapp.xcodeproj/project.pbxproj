@@ -15,6 +15,7 @@
 		D3AD289B1B78429700DD0DA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AD289A1B78429700DD0DA3 /* Images.xcassets */; };
 		D3AD289E1B78429700DD0DA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AD289C1B78429700DD0DA3 /* LaunchScreen.xib */; };
 		D3AD28AA1B78429700DD0DA3 /* LocatappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AD28A91B78429700DD0DA3 /* LocatappTests.swift */; };
+		D3AD28B41B78494000DD0DA3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AD28B31B78494000DD0DA3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D3AD28A31B78429700DD0DA3 /* LocatappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AD28A81B78429700DD0DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3AD28A91B78429700DD0DA3 /* LocatappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatappTests.swift; sourceTree = "<group>"; };
+		D3AD28B31B78494000DD0DA3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AD28B41B78494000DD0DA3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		D3AD28801B78429700DD0DA3 = {
 			isa = PBXGroup;
 			children = (
+				D3AD28B31B78494000DD0DA3 /* MapKit.framework */,
 				D3AD288B1B78429700DD0DA3 /* Locatapp */,
 				D3AD28A61B78429700DD0DA3 /* LocatappTests */,
 				D3AD288A1B78429700DD0DA3 /* Products */,
@@ -350,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Locatapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Locatapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
